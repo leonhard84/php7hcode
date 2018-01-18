@@ -1,0 +1,22 @@
+Comandos GitHub (Controle de Versão)
+
+Criar estrutura
+- Entrar no site do github, logar e criar um repositório
+- Cmd - entra na pasta que deseja controlar
+- git init (\.git é criada uma pasta oculta o diretório)
+
+Comandos antes de enviar
+- git add arquivo.extensão (adiciona um arquivo) ou
+- git add --all (adiciona tudo e remove o que foi removido localmente)
+- git commit -m "mensagem" (confirma as alteações. Na mensagem se informa o porque dessa alteração)
+
+Configurar o repositório (só na 1ª vez)
+- git remote add origin link do repositorio (configurar o novo repositório)
+- git config --global user.name "Seu Nome"
+- git config --global user.email "Email da conta git"
+- git push origin master (envia os arquivos)
+- git pull origin master (puxa os arquivos)
+
+Ao fazer o push, caso haja conflito, fazer o pull e entrar nos
+arquivos em que houve o auto-merging, fazer os ajustes e reenviar.
+
